@@ -1,0 +1,15 @@
+Bundle-Version: 1.0.0
+Private-Package:  \
+	org.greenscape.core.service.impl
+-buildpath:  \
+	org.greenscape.core.model;version=latest,\
+	osgi.core;version=5.0,\
+	osgi.cmpn;version=5.0,\
+	org.greenscape.persistence;version=latest,\
+	org.greenscape.core.service;version=latest,\
+	org.eclipse.osgi.services.remoteserviceadmin
+	
+javac.source: 1.8
+javac.target: 1.8
+-dsannotations:  \
+	*
